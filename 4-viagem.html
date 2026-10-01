@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Custo da Viagem</title>
+</head>
+<body>
+
+<script>
+
+var distancia = Number(prompt("Digite a distância da viagem:"));
+var consumo = Number(prompt("Digite o consumo em km/l:"));
+var preco = Number(prompt("Digite o preço do combustível:"));
+
+var litros = distancia / consumo;
+var custo = litros * preco;
+
+alert("Custo da viagem: R$ " + custo);
+
+</script>
+
+</body>
+</html>
